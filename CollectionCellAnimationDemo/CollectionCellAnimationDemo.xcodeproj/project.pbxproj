@@ -7,11 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F7BA9A5B1E28DD400033C486 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7BA9A5A1E28DD400033C486 /* AppDelegate.swift */; };
-		F7BA9A5D1E28DD410033C486 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7BA9A5C1E28DD410033C486 /* ViewController.swift */; };
-		F7BA9A601E28DD410033C486 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7BA9A5E1E28DD410033C486 /* Main.storyboard */; };
-		F7BA9A621E28DD410033C486 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7BA9A611E28DD410033C486 /* Assets.xcassets */; };
-		F7BA9A651E28DD410033C486 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7BA9A631E28DD410033C486 /* LaunchScreen.storyboard */; };
 		F7BA9A701E28DD410033C486 /* CollectionCellAnimationDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7BA9A6F1E28DD410033C486 /* CollectionCellAnimationDemoTests.swift */; };
 		F7BA9A7B1E28DD410033C486 /* CollectionCellAnimationDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7BA9A7A1E28DD410033C486 /* CollectionCellAnimationDemoUITests.swift */; };
 /* End PBXBuildFile section */
@@ -35,12 +30,6 @@
 
 /* Begin PBXFileReference section */
 		F7BA9A571E28DD400033C486 /* CollectionCellAnimationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollectionCellAnimationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F7BA9A5A1E28DD400033C486 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F7BA9A5C1E28DD410033C486 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F7BA9A5F1E28DD410033C486 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		F7BA9A611E28DD410033C486 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F7BA9A641E28DD410033C486 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		F7BA9A661E28DD410033C486 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F7BA9A6B1E28DD410033C486 /* CollectionCellAnimationDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CollectionCellAnimationDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7BA9A6F1E28DD410033C486 /* CollectionCellAnimationDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionCellAnimationDemoTests.swift; sourceTree = "<group>"; };
 		F7BA9A711E28DD410033C486 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -97,12 +86,6 @@
 		F7BA9A591E28DD400033C486 /* CollectionCellAnimationDemo */ = {
 			isa = PBXGroup;
 			children = (
-				F7BA9A5A1E28DD400033C486 /* AppDelegate.swift */,
-				F7BA9A5C1E28DD410033C486 /* ViewController.swift */,
-				F7BA9A5E1E28DD410033C486 /* Main.storyboard */,
-				F7BA9A611E28DD410033C486 /* Assets.xcassets */,
-				F7BA9A631E28DD410033C486 /* LaunchScreen.storyboard */,
-				F7BA9A661E28DD410033C486 /* Info.plist */,
 			);
 			path = CollectionCellAnimationDemo;
 			sourceTree = "<group>";
@@ -232,9 +215,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F7BA9A651E28DD410033C486 /* LaunchScreen.storyboard in Resources */,
-				F7BA9A621E28DD410033C486 /* Assets.xcassets in Resources */,
-				F7BA9A601E28DD410033C486 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +239,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F7BA9A5D1E28DD410033C486 /* ViewController.swift in Sources */,
-				F7BA9A5B1E28DD400033C486 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,25 +272,6 @@
 			targetProxy = F7BA9A771E28DD410033C486 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		F7BA9A5E1E28DD410033C486 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F7BA9A5F1E28DD410033C486 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		F7BA9A631E28DD410033C486 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F7BA9A641E28DD410033C486 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		F7BA9A7D1E28DD410033C486 /* Debug */ = {
@@ -433,7 +392,6 @@
 		F7BA9A831E28DD410033C486 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = CollectionCellAnimationDemoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -447,7 +405,6 @@
 		F7BA9A841E28DD410033C486 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = CollectionCellAnimationDemoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -461,7 +418,6 @@
 		F7BA9A861E28DD410033C486 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = CollectionCellAnimationDemoUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tongxing.CollectionCellAnimationDemoUITests;
@@ -474,7 +430,6 @@
 		F7BA9A871E28DD410033C486 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = CollectionCellAnimationDemoUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = tongxing.CollectionCellAnimationDemoUITests;
